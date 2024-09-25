@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Builder</title>
+  <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.8.1/libs/pptxgen.bundle.js"></script>
+</head>
+<body>
+  <h1>Build a Slide</h1>
+
+  <form id="slideForm">
+    <label for="problem">1. Describe your customer's problem that you solve:</label><br>
+    <textarea id="problem" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="provocativeQuestion">2. Create a provocative problem question:</label><br>
+    <textarea id="provocativeQuestion" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="imageSuggestion">3. Suggest an image that is metaphorical to the customer problem:</label><br>
+    <textarea id="imageSuggestion" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="submit">Generate Slide</button>
+  </form>
+
+  <p id="status"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
